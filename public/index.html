@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Magic 8 Ball</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./magic-8-ball.css" />
+    <!-- Web manifest -->
+    <link rel="manifest" href="./magic-8-ball-pwa.json" />
+    <!-- Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icons/icon-magic-8-ball.png"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="magicEightBall">
+        <img
+          class="magicEightBallStart"
+          src="./images/magic-8-ball-start.jpg"
+          alt="Magic 8 ball start"
+        />
+        <img
+          class="magicEightBallFinish"
+          src="./images/magic-8-ball-finish.jpg"
+          alt="Magic 8 ball finish"
+        />
+        <div class="answer"></div>
+      </div>
+      <script src="./magic-8-ball.js"></script>
+    </main>
+  </body>
+</html>
